@@ -18,30 +18,14 @@ h1, h2 {
   text-align: center;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
-input, select, button {
-  font-size: 1em;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-}
-
-button {
-  background: #8ecae6;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background 0.2s;
-}
-
-button:hover {
-  background: #219ebc;
+ul li {
+  margin-bottom: 8px;
 }
 
 @media (max-width: 500px) {
